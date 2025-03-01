@@ -9,8 +9,57 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "personal-website",
+    "title": "Allison Lynn",
     "section": "",
-    "text": "cat(\"hi\")\n\nhi"
+    "text": "Data scientist with strong foundation in statistical modeling and mathematics, committed to leveraging data-driven insights for impactful solutions. Over two years of programming experience, with a passion for exploring data through analytical strategies, visualization techniques, and machine/deep learning methods.\nResume"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Allison Lynn",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Allison Lynn",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "Untitled.html#project-2",
+    "href": "Untitled.html#project-2",
+    "title": "projects",
+    "section": "Project 2",
+    "text": "Project 2"
+  },
+  {
+    "objectID": "projects.html#project-2",
+    "href": "projects.html#project-2",
+    "title": "projects",
+    "section": "Project 2",
+    "text": "Project 2\nproject 1"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nproject1\n\n\n \n\n\n\n\nproject2\n\n\n \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Projects/project1.html",
+    "href": "Projects/project1.html",
+    "title": "project1",
+    "section": "",
+    "text": "this is project 1\n\ncat(\"hi\")\n\nhi"
+  },
+  {
+    "objectID": "Projects/project2.html",
+    "href": "Projects/project2.html",
+    "title": "project2",
+    "section": "",
+    "text": "Project 2\n\ncat(\"hello\")\n\nhello"
   }
 ]

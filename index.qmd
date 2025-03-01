@@ -1,7 +1,35 @@
 ---
-title: "personal-website"
+title: "Allison Lynn"
+about:
+  template: solana
+  image: IMG_9116.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/allisonlynn5256/
+    - icon: github
+      text: Github
+      href: https://github.com/allielynn
+    - text: Email
+      url: "mailto:allienlynn@gmail.com"
 ---
 
-```{r}
-cat("hi")
-```
+Data scientist with strong foundation in statistical modeling and mathematics, committed to leveraging
+data-driven insights for impactful solutions. Over two years of programming experience, with a passion for
+exploring data through analytical strategies, visualization techniques, and machine/deep learning methods.
+
+[Resume](/Resume - Allison-Lynn.pdf)
+
+## Education
+
+University of California, San Diego | San Diego, CA
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul, MN
+B.A in Economics | Sept 2007 - June 2011
+
+## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present
+
+GeoScynce | Chief Analyst | Spet 2012 - April 2018
