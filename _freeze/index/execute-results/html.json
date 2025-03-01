@@ -1,0 +1,15 @@
+{
+  "hash": "dcdb33c47b641eee3e253229d378eaac",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"personal-website\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\ncat(\"hi\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nhi\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

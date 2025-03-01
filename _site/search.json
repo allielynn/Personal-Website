@@ -4,13 +4,13 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\nprint(2)\n\n[1] 2"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "personal-website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\nrnorm(10)\n\n [1] -1.30892284 -0.36949994 -1.76600167  0.06001648  0.90507988  0.67789155\n [7] -1.72574461 -1.01182216  1.22914780 -0.84598725\n\n\n\nx &lt;- 10\nprint(x)\n\n[1] 10"
+    "text": "cat(\"hi\")\n\nhi"
   }
 ]
