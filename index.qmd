@@ -10,8 +10,12 @@ about:
     - icon: github
       text: Github
       href: https://github.com/allielynn
-    - text: Email
+    - icon: envelope
+      text: Email
       url: "mailto:allienlynn@gmail.com"
+    - icon: phone
+      text: Phone
+      href: "tel:+14694011939"
 ---
 
 Data scientist with strong foundation in statistical modeling and mathematics, committed to leveraging
@@ -22,14 +26,20 @@ exploring data through analytical strategies, visualization techniques, and mach
 
 ## Education
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
-
-Macalester College | St. Paul, MN
-B.A in Economics | Sept 2007 - June 2011
+University of California, Los Angeles | Los Angeles, CA
+BS in Statistics and Data Science | Sept 2022 - June 2026
 
 ## Experience
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+Ryan, LLC | Data Strategy Intern | June 2024 - Aug 2024
 
-GeoScynce | Chief Analyst | Spet 2012 - April 2018
+Unlimited Tutoring | Calculus Tutor | April 2023 - June 2024
+
+## Skills
+**Data Science**: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks
+
+**Languages**: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL
+
+**Mathematics**: Calculus, Linear Algebra, Probability Theory, Optimization
+
+**Data Engineering**: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel
