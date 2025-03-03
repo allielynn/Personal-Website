@@ -2,7 +2,7 @@
 title: "Allison Lynn"
 about:
   template: solana
-  image: IMG_9116.jpg
+  image: IMG_9117.jpeg
   links:
     - icon: linkedin
       text: LinkedIn
