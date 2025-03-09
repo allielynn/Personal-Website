@@ -1,8 +1,13 @@
 ---
 title: "Projects"
 listing:
-  type: table
+  type: default
   contents:
     - "Projects/*.qmd"
+  sort: "date desc"
+  fields:
+    - title
+    - description
+    - github
+    - image
 ---
-

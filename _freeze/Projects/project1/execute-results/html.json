@@ -1,8 +1,8 @@
 {
-  "hash": "7ec1c8683eefb4c7b023fe3caa96569f",
+  "hash": "a611895cda938e288a4c680559d147a2",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"project1\"\nauthor: \"Allison Lynn\"\n---\n\n\n\n\n\n\nthis is project 1\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\ncat(\"hi\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nhi\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Predicting NBA Game Outcomes\"\ndate: 12/10/24\nimage: \"/Users/allielynn/Desktop/Stats 140XP/personal-website/ball.jpeg\"\ndescription: \"Using machine learning to predict NBA game outcomes.\"\ngithub: \"https://github.com/allielynn/NBA-Game-Outcomes\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\ngetwd()\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"/Users/allielynn/Desktop/Stats 140XP/personal-website/Projects\"\n```\n\n\n:::\n:::\n\n\n\n\nThis project, conducted in collaboration with other UCLA students as part of our Data Mining course, aimed to predict NBA game outcomes using historical data from the 2023-2024 season, which included 2,460 entries with features such as team performance metrics, game statistics, and match outcomes. Through extensive feature engineering, advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, and ELO ratings were introduced, alongside rolling averages, win streaks, matchup history, and stability (variance in team metrics over recent games). An exponential decay weighting system was applied to emphasize recent games. Various machine learning models, including Gradient Boosting, Random Forest, SVC, LDA, and QDA, were evaluated. Gradient Boosting and Random Forest emerged as the most effective, achieving a prediction accuracy of 93.87% by capturing complex linear and non-linear patterns in the data. Key features such as team and opponent ELO ratings and historical matchup performance highlighted the interactive and opponent-dependent nature of game outcomes. This project showcased the power of advanced modeling and feature engineering in sports analytics.",
     "supporting": [
       "project1_files"
     ],

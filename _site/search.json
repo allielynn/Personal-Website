@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2\n\nprint(2)\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Allison Lynn",
-    "section": "",
-    "text": "Data scientist with strong foundation in statistical modeling and mathematics, committed to leveraging data-driven insights for impactful solutions. Over two years of programming experience, with a passion for exploring data through analytical strategies, visualization techniques, and machine/deep learning methods.\nResume"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Allison Lynn",
-    "section": "Education",
-    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA BS in Statistics and Data Science | Sept 2022 - June 2026"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Allison Lynn",
-    "section": "Experience",
-    "text": "Experience\nRyan, LLC | Data Strategy Intern | June 2024 - Aug 2024\nUnlimited Tutoring | Calculus Tutor | April 2023 - June 2024"
-  },
-  {
     "objectID": "Untitled.html#project-2",
     "href": "Untitled.html#project-2",
     "title": "projects",
@@ -35,37 +7,65 @@
     "text": "Project 2"
   },
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "projects",
-    "section": "Project 2",
-    "text": "Project 2\nproject 1"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Allison Lynn",
+    "section": "",
+    "text": "I am third year at UCLA, majoring in Statistics and Data Science. My passion lies in using data-driven solutions to create a positive impact. I have developed a strong foundation in mathematics, statistics, and programming. I am proficient in Python, and R, and skilled in using SQL for efficient database management. Additionally, I have knowledge of neural networks, machine learning, and statistical modeling, further enhancing my technical capabilities.\nResume"
+  },
+  {
+    "objectID": "Projects/project3.html",
+    "href": "Projects/project3.html",
+    "title": "Predicting Heart Failure in Patients",
+    "section": "",
+    "text": "GitHub Repo\n\nThis project focuses on predicting heart disease using machine learning models to analyze key clinical predictors. By applying Linear Discriminant Analysis (LDA) and validating its assumptions, we found that heart disease risk follows a primarily linear relationship with factors like ejection fraction, high blood pressure, and time. To enhance interpretability, we used LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy. Comparisons with Random Forest and Gradient Boosting confirmed that complex, non-linear models did not improve performance, reinforcing the effectiveness of a linear approach. These findings highlight the potential for interpretable, data-driven models to assist in clinical risk assessment and patient stratification for heart disease."
+  },
+  {
+    "objectID": "Projects/project1.html",
+    "href": "Projects/project1.html",
+    "title": "Predicting NBA Game Outcomes",
+    "section": "",
+    "text": "GitHub Repo\n\nThis project, conducted in collaboration with other UCLA students as part of our Data Mining course, aimed to predict NBA game outcomes using historical data from the 2023-2024 season, which included 2,460 entries with features such as team performance metrics, game statistics, and match outcomes. Through extensive feature engineering, advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, and ELO ratings were introduced, alongside rolling averages, win streaks, matchup history, and stability (variance in team metrics over recent games). An exponential decay weighting system was applied to emphasize recent games. Various machine learning models, including Gradient Boosting, Random Forest, SVC, LDA, and QDA, were evaluated. Gradient Boosting and Random Forest emerged as the most effective, achieving a prediction accuracy of 93.87% by capturing complex linear and non-linear patterns in the data. Key features such as team and opponent ELO ratings and historical matchup performance highlighted the interactive and opponent-dependent nature of game outcomes. This project showcased the power of advanced modeling and feature engineering in sports analytics."
+  },
+  {
+    "objectID": "Projects/project2.html",
+    "href": "Projects/project2.html",
+    "title": "NBA Salary Analysis",
+    "section": "",
+    "text": "GitHub Repo\n\nAs part of a linear regression course at UCLA, I collaborated with a team of peers to conduct an in-depth analysis of NBA player salaries, aiming to identify significant predictors influencing salary variations. Employing linear modeling techniques in R, we examined potential predictors, assessing their statistical significance. A crucial component of our analysis involved verifying the assumptions of linear regression (constant variance, linearity, and normality) by evaluating the diagnostic plots. To better satisfy these assumptions, we applied a transformation to the target variable, improving the model assumptions. After addressing outliers and ensuring the model met regression assumptions, we selected the optimal model based on AIC, AICc, and BIC, effectively managing multicollinearity. Our model provided valuable insights into the factors influencing NBA player salaries, allowing us to explore salary fluctuations and the nuances of significant predictor variables. By incorporating research on the basketball industry, we were able to interpret our findings more effectively, offering a comprehensive, data-driven perspective on the determinants of NBA player salaries."
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nproject1\n\n\nAllison Lynn\n\n\n\n\nproject2\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Predicting Heart Failure in Patients\n\n\n\n\n\nUsing Linear Discriminant Analysis to predict heart failure.\n\n\n\n\n\nhttps://github.com/allielynn/Heart-Failure-\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NBA Game Outcomes\n\n\n\n\n\nUsing machine learning to predict NBA game outcomes.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Game-Outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Salary Analysis\n\n\n\n\n\nUsing linear regression to predict NBA player salaries.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Salaries\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "Projects/project1.html",
-    "href": "Projects/project1.html",
-    "title": "project1",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "this is project 1\n\ncat(\"hi\")\n\nhi"
+    "text": "University of California, Los Angeles | Los Angeles, CA\nBS in Statistics and Data Science | Sept 2022 - June 2026\nCoursework: Data Analysis and Regression, Probability Theory, Design and Analysis of Experiments, Mathematical Statistics, Calculus of Several Variables, Linear Algebra, Programming in R, Programming in C++, Programming in Python, Statistical Models and Data Mining, Linear Models, Computational Statistics with R"
   },
   {
-    "objectID": "Projects/project2.html",
-    "href": "Projects/project2.html",
-    "title": "project2",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
     "section": "",
-    "text": "Project 2\n\ncat(\"hello\")\n\nhello"
+    "text": "University of California, Los Angeles | Los Angeles, CA\nBS in Statistics and Data Science | Sept 2022 - June 2026\nCoursework: Data Analysis and Regression, Probability Theory, Design and Analysis of Experiments, Mathematical Statistics, Calculus of Several Variables, Linear Algebra, Programming in R, Programming in C++, Programming in Python, Statistical Models and Data Mining, Linear Models, Computational Statistics with R"
   },
   {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Allison Lynn",
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nRyan, LLC | Data Strategy Intern | June 2024 - Aug 2024\nIn my role as a Mathematics Tutor, I conducted remote tutoring sessions for both high school and college mathematics courses. Leveraging my extensive mathematics knowledge and strong communication skills, I provided one-on-one tutoring, specializing in Calculus, Statistics, and other advanced mathematics subjects. This role has significantly improved my ability to present complex concepts in an easy-to-understand manner, a skill essential for a data scientist. This experience has also enhanced my communication skills, allowing me to communicate insights clearly and effectively.\n\nUnlimited Tutoring | Calculus Tutor | April 2023 - June 2024\nIn my role as a Data Strategy Intern at Ryan, I collaborated closely with technology leaders to streamline data pipelines and analysis processes through automation. I crafted SQL queries for database manipulation and cleaning, working primarily in Databricks. Additionally, I developed Python scripts for large-scale data analysis, and I practiced data visualization techniques working with tools such as Tableau and Power BI. I also employed large language models to optimize data solutions and enhance data processing capabilities. I gained knowledge on machine learning techniques using PyTorch, applying neural network structures while drawing on my background of statistical modeling. My work was organized using Agile methodologies, including sprint planning with Azure DevOps, to ensure efficient project execution and continuous improvement. This experience significantly improved my ability to work efficiently in iterative cycles, adapt to changing project requirements, and contribute effectively to team goals."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
     "section": "Skills",
     "text": "Skills\nData Science: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks\nLanguages: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL\nMathematics: Calculus, Linear Algebra, Probability Theory, Optimization\nData Engineering: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel"
   }

@@ -5,7 +5,7 @@ about:
   image: IMG_9117.jpeg
   links:
     - icon: linkedin
-      text: LinkedIn
+      text: LinkedInqu
       href: https://www.linkedin.com/in/allisonlynn5256/
     - icon: github
       text: Github
@@ -18,28 +18,6 @@ about:
       href: "tel:+14694011939"
 ---
 
-Data scientist with strong foundation in statistical modeling and mathematics, committed to leveraging
-data-driven insights for impactful solutions. Over two years of programming experience, with a passion for
-exploring data through analytical strategies, visualization techniques, and machine/deep learning methods.
+I am third year at UCLA, majoring in Statistics and Data Science. My passion lies in using data-driven solutions to create a positive impact. I have developed a strong foundation in mathematics, statistics, and programming. I am proficient in Python, and R, and skilled in using SQL for efficient database management. Additionally, I have knowledge of neural networks, machine learning, and statistical modeling, further enhancing my technical capabilities.
 
-[Resume](/Resume - Allison-Lynn.pdf)
-
-## Education
-
-University of California, Los Angeles | Los Angeles, CA
-BS in Statistics and Data Science | Sept 2022 - June 2026
-
-## Experience
-
-Ryan, LLC | Data Strategy Intern | June 2024 - Aug 2024
-
-Unlimited Tutoring | Calculus Tutor | April 2023 - June 2024
-
-## Skills
-**Data Science**: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks
-
-**Languages**: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL
-
-**Mathematics**: Calculus, Linear Algebra, Probability Theory, Optimization
-
-**Data Engineering**: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel
+[Resume](/Resume%20-%20Allison-Lynn.pdf)

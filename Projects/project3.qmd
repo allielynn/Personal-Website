@@ -1,0 +1,14 @@
+---
+title: "Predicting Heart Failure in Patients"
+image: https://images.stockcake.com/public/c/5/a/c5a70910-16d6-4148-9561-32ff659cda4a_large/glowing-heart-art-stockcake.jpg
+description: "Using Linear Discriminant Analysis to predict heart failure."
+github: "https://github.com/allielynn/Heart-Failure-"
+format: html
+date: March 9, 2025
+---
+
+[GitHub Repo]({{< meta github >}})
+
+![](https://images.stockcake.com/public/c/5/a/c5a70910-16d6-4148-9561-32ff659cda4a_large/glowing-heart-art-stockcake.jpg)
+
+This project focuses on predicting heart disease using machine learning models to analyze key clinical predictors. By applying Linear Discriminant Analysis (LDA) and validating its assumptions, we found that heart disease risk follows a primarily linear relationship with factors like ejection fraction, high blood pressure, and time. To enhance interpretability, we used LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy. Comparisons with Random Forest and Gradient Boosting confirmed that complex, non-linear models did not improve performance, reinforcing the effectiveness of a linear approach. These findings highlight the potential for interpretable, data-driven models to assist in clinical risk assessment and patient stratification for heart disease.

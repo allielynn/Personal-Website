@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-github','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -200,56 +200,84 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1741507200000" data-listing-file-modified-sort="1741551156482" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<div class="thumbnail">
+<p><a href="./Projects/project3.html" class="no-external"></a></p><a href="./Projects/project3.html" class="no-external">
+<p><img loading="lazy" src="https://images.stockcake.com/public/c/5/a/c5a70910-16d6-4148-9561-32ff659cda4a_large/glowing-heart-art-stockcake.jpg" class="thumbnail-image"></p>
+</a><p><a href="./Projects/project3.html" class="no-external"></a></p>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1740963877547" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="project1" data-listing-filename-sort="project1.qmd">
-<td>
-<a href="./Projects/project1.html" class="title listing-title">project1</a>
-</td>
-<td>
-<span class="listing-author">Allison Lynn</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1740793220269" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="project2" data-listing-filename-sort="project2.qmd">
-<td>
-<a href="./Projects/project2.html" class="title listing-title">project2</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Projects/project3.html" class="no-external">Predicting Heart Failure in Patients</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Projects/project3.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./Projects/project3.html" class="no-external">Using Linear Discriminant Analysis to predict heart failure.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./Projects/project3.html" class="no-external"></a></p><a href="./Projects/project3.html" class="no-external">
+<div class="metadata-value listing-github">
+https://github.com/allielynn/Heart-Failure-
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1733990400000" data-listing-file-modified-sort="1741551237564" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+<div class="thumbnail">
+<p><a href="./Projects/project1.html" class="no-external"></a></p><a href="./Projects/project1.html" class="no-external">
+<p><img loading="lazy" src="https://www.aljazeera.com/wp-content/uploads/2024/10/2024-10-11T013631Z_2017726860_MT1USATODAY24457004_RTRMADP_3_NBA-PRESEASON-LOS-ANGELES-LAKERS-AT-MILWAUKEE-BUCKS-1729514163.jpg?resize=1920%2C1080" class="thumbnail-image"></p>
+</a><p><a href="./Projects/project1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Projects/project1.html" class="no-external">Predicting NBA Game Outcomes</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Projects/project1.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./Projects/project1.html" class="no-external">Using machine learning to predict NBA game outcomes.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./Projects/project1.html" class="no-external"></a></p><a href="./Projects/project1.html" class="no-external">
+<div class="metadata-value listing-github">
+https://github.com/allielynn/NBA-Game-Outcomes
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1710486000000" data-listing-file-modified-sort="1741551276208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+<div class="thumbnail">
+<p><a href="./Projects/project2.html" class="no-external"></a></p><a href="./Projects/project2.html" class="no-external">
+<p><img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHKV7XVW-paacYJFV54itH3dlKITwtXU_HgA&amp;s" class="thumbnail-image"></p>
+</a><p><a href="./Projects/project2.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./Projects/project2.html" class="no-external">NBA Salary Analysis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./Projects/project2.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./Projects/project2.html" class="no-external">Using linear regression to predict NBA player salaries.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./Projects/project2.html" class="no-external"></a></p><a href="./Projects/project2.html" class="no-external">
+<div class="metadata-value listing-github">
+https://github.com/allielynn/NBA-Salaries
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

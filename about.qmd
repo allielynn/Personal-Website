@@ -1,10 +1,37 @@
 ---
 title: "About"
+about:
+  template: marquee
+  image: ucla_image.jpg
 ---
 
-About this site
+## Education
 
-```{r}
-1 + 1
-print(2)
-```
+University of California, Los Angeles \| Los Angeles, CA
+
+BS in Statistics and Data Science \| Sept 2022 - June 2026
+
+Coursework: Data Analysis and Regression, Probability Theory, Design and Analysis of Experiments, Mathematical Statistics, Calculus of Several Variables, Linear Algebra, Programming in R, Programming in C++, Programming in Python, Statistical Models and Data Mining, Linear Models, Computational Statistics with R
+
+## Experience
+
+Ryan, LLC \| Data Strategy Intern \| June 2024 - Aug 2024
+
+In my role as a Mathematics Tutor, I conducted remote tutoring sessions for both high school and college mathematics courses. Leveraging my extensive mathematics knowledge and strong communication skills, I provided one-on-one tutoring, specializing in Calculus, Statistics, and other advanced mathematics subjects. This role has significantly improved my ability to present complex concepts in an easy-to-understand manner, a skill essential for a data scientist. This experience has also enhanced my communication skills, allowing me to communicate insights clearly and effectively.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Unlimited Tutoring \| Calculus Tutor \| April 2023 - June 2024
+
+In my role as a Data Strategy Intern at Ryan, I collaborated closely with technology leaders to streamline data pipelines and analysis processes through automation. I crafted SQL queries for database manipulation and cleaning, working primarily in Databricks. Additionally, I developed Python scripts for large-scale data analysis, and I practiced data visualization techniques working with tools such as Tableau and Power BI. I also employed large language models to optimize data solutions and enhance data processing capabilities. I gained knowledge on machine learning techniques using PyTorch, applying neural network structures while drawing on my background of statistical modeling. My work was organized using Agile methodologies, including sprint planning with Azure DevOps, to ensure efficient project execution and continuous improvement. This experience significantly improved my ability to work efficiently in iterative cycles, adapt to changing project requirements, and contribute effectively to team goals.
+
+
+## Skills
+
+<strong>Data Science</strong>: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks
+
+<strong>Languages</strong>: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL
+
+<strong>Mathematics</strong>: Calculus, Linear Algebra, Probability Theory, Optimization
+
+<strong>Data Engineering</strong>: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel
