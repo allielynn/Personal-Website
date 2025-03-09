@@ -5,7 +5,7 @@ about:
   image: IMG_9117.jpeg
   links:
     - icon: linkedin
-      text: LinkedInqu
+      text: LinkedIn
       href: https://www.linkedin.com/in/allisonlynn5256/
     - icon: github
       text: Github
