@@ -1,0 +1,12 @@
+---
+title: "ICU Stay Predictions using NLP"
+image: https://www.homecaremag.com/sites/default/files/styles/main_image/public/man-in-hospital-980x400.jpg?itok=EFtm0g0r
+description: "Analyzed caretaker notes to predict ICU stay length using NLP"
+github: "https://github.com/allielynn/NLP-ICU-Predictions"
+format: html
+date: March 16, 2025
+---
+
+[GitHub Repo]({{< meta github >}})
+
+![](https://www.homecaremag.com/sites/default/files/styles/main_image/public/man-in-hospital-980x400.jpg?itok=EFtm0g0r)

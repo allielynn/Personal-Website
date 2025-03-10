@@ -35,6 +35,13 @@
     "text": "GitHub Repo\n\nIn this analysis, I will be diving into Lana Del Rey’s Albums and Tracks along with their popularity ratings given by Spotify. I am drawing from the Spotify API and for context as to how the popularity scores are calculated I have included the description of the popularity score calculation below.\n“The Spotify popularity score is a numerical representation of how well a track is performing on the platform. It ranges from 0 to 100, with higher scores indicating higher popularity. This score influences the track’s visibility on Spotify, including its likelihood of being featured on algorithmic playlists like Discover Weekly and Release Radar.\nSpotify’s popularity score is determined by a variety of factors:\nStreams: The number of times a track is streamed. Recent Activity: More weight is given to recent streams. Engagement: Includes likes, shares, saves, and playlist additions. Listener Behavior: How long listeners play the track and if they skip it. User Interactions: Actions such as follows, comments, and social shares.”"
   },
   {
+    "objectID": "Projects/project6.html",
+    "href": "Projects/project6.html",
+    "title": "ICU Stay Predictions using NLP",
+    "section": "",
+    "text": "GitHub Repo"
+  },
+  {
     "objectID": "Projects/project5.html",
     "href": "Projects/project5.html",
     "title": "Caffiene Analysis",
@@ -53,7 +60,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Predicting Heart Failure in Patients\n\n\n\n\n\nUsing Linear Discriminant Analysis to predict heart failure.\n\n\n\n\n\nhttps://github.com/allielynn/Heart-Failure-\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NBA Game Outcomes\n\n\n\n\n\nUsing machine learning to predict NBA game outcomes.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Game-Outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nLDR Music Analysis\n\n\n\n\n\nAnalyzing Lana del Rey’s albums and tracks with pandas.\n\n\n\n\n\nhttps://github.com/allielynn/LDR-Music-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nCaffiene Analysis\n\n\n\n\n\nExperimental design project on the impacts of caffeine on attention levels.\n\n\n\n\n\nhttps://github.com/allielynn/Caffeine-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Salary Analysis\n\n\n\n\n\nUsing linear regression to predict NBA player salaries.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Salaries\n\n\n\n\n\n\nNo matching items"
+    "text": "ICU Stay Predictions using NLP\n\n\n\n\n\nAnalyzed caretaker notes to predict ICU stay length using NLP\n\n\n\n\n\nhttps://github.com/allielynn/NLP-ICU-Predictions\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Heart Failure in Patients\n\n\n\n\n\nUsing Linear Discriminant Analysis to predict heart failure.\n\n\n\n\n\nhttps://github.com/allielynn/Heart-Failure-\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NBA Game Outcomes\n\n\n\n\n\nUsing machine learning to predict NBA game outcomes.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Game-Outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nLDR Music Analysis\n\n\n\n\n\nAnalyzing Lana del Rey’s albums and tracks with pandas.\n\n\n\n\n\nhttps://github.com/allielynn/LDR-Music-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nCaffiene Analysis\n\n\n\n\n\nExperimental design project on the impacts of caffeine on attention levels.\n\n\n\n\n\nhttps://github.com/allielynn/Caffeine-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Salary Analysis\n\n\n\n\n\nUsing linear regression to predict NBA player salaries.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Salaries\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
