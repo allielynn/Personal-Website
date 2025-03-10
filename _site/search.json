@@ -28,6 +28,20 @@
     "text": "GitHub Repo\n\nThis project, conducted in collaboration with other UCLA students as part of our Data Mining course, aimed to predict NBA game outcomes using historical data from the 2023-2024 season, which included 2,460 entries with features such as team performance metrics, game statistics, and match outcomes. Through extensive feature engineering, advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, and ELO ratings were introduced, alongside rolling averages, win streaks, matchup history, and stability (variance in team metrics over recent games). An exponential decay weighting system was applied to emphasize recent games. Various machine learning models, including Gradient Boosting, Random Forest, SVC, LDA, and QDA, were evaluated. Gradient Boosting and Random Forest emerged as the most effective, achieving a prediction accuracy of 93.87% by capturing complex linear and non-linear patterns in the data. Key features such as team and opponent ELO ratings and historical matchup performance highlighted the interactive and opponent-dependent nature of game outcomes. This project showcased the power of advanced modeling and feature engineering in sports analytics."
   },
   {
+    "objectID": "Projects/project4.html",
+    "href": "Projects/project4.html",
+    "title": "LDR Music Analysis",
+    "section": "",
+    "text": "GitHub Repo\n\nIn this analysis, I will be diving into Lana Del Rey’s Albums and Tracks along with their popularity ratings given by Spotify. I am drawing from the Spotify API and for context as to how the popularity scores are calculated I have included the description of the popularity score calculation below.\n“The Spotify popularity score is a numerical representation of how well a track is performing on the platform. It ranges from 0 to 100, with higher scores indicating higher popularity. This score influences the track’s visibility on Spotify, including its likelihood of being featured on algorithmic playlists like Discover Weekly and Release Radar.\nSpotify’s popularity score is determined by a variety of factors:\nStreams: The number of times a track is streamed. Recent Activity: More weight is given to recent streams. Engagement: Includes likes, shares, saves, and playlist additions. Listener Behavior: How long listeners play the track and if they skip it. User Interactions: Actions such as follows, comments, and social shares.”"
+  },
+  {
+    "objectID": "Projects/project5.html",
+    "href": "Projects/project5.html",
+    "title": "Caffiene Analysis",
+    "section": "",
+    "text": "GitHub Repo\n\nAs part of an experimental design course at UCLA, I collaborated with a team to conduct an in-depth analysis of caffeine’s effects on attention scores using a simulated island environment. The project used a two-way randomized block design to control for variability and ensure reliable data collection. We aimed to identify the effect of various caffeine levels on attention scores by administering doses followed by an attention test. After gathering data through a carefully structured experimental design, which included randomization, consistent caffeine dosing, and control groups, we applied linear regression modeling techniques in R to analyze the results. A crucial part of our analysis involved verifying the assumptions of linear regression—constant variance, linearity, and normality—by reviewing the diagnostic plots. We used interaction plots to explore relationships between predictor variables and their combined effects on attention scores, and box plots to visualize the distribution and variance in attention across different levels of caffeine intake. Our results provided a nuanced understanding of how caffeine consumption affects attention, offering insights that could even influence personal decisions regarding caffeine consumption and its impact on focus and cognitive performance."
+  },
+  {
     "objectID": "Projects/project2.html",
     "href": "Projects/project2.html",
     "title": "NBA Salary Analysis",
@@ -39,7 +53,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Predicting Heart Failure in Patients\n\n\n\n\n\nUsing Linear Discriminant Analysis to predict heart failure.\n\n\n\n\n\nhttps://github.com/allielynn/Heart-Failure-\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NBA Game Outcomes\n\n\n\n\n\nUsing machine learning to predict NBA game outcomes.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Game-Outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Salary Analysis\n\n\n\n\n\nUsing linear regression to predict NBA player salaries.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Salaries\n\n\n\n\n\n\nNo matching items"
+    "text": "Predicting Heart Failure in Patients\n\n\n\n\n\nUsing Linear Discriminant Analysis to predict heart failure.\n\n\n\n\n\nhttps://github.com/allielynn/Heart-Failure-\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NBA Game Outcomes\n\n\n\n\n\nUsing machine learning to predict NBA game outcomes.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Game-Outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nLDR Music Analysis\n\n\n\n\n\nAnalyzing Lana del Rey’s albums and tracks with pandas.\n\n\n\n\n\nhttps://github.com/allielynn/LDR-Music-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nCaffiene Analysis\n\n\n\n\n\nExperimental design project on the impacts of caffeine on attention levels.\n\n\n\n\n\nhttps://github.com/allielynn/Caffeine-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Salary Analysis\n\n\n\n\n\nUsing linear regression to predict NBA player salaries.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Salaries\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

@@ -1,0 +1,21 @@
+---
+title: "LDR Music Analysis"
+image: https://miro.medium.com/v2/resize:fit:640/1*C57VdvYQI0jQAXB0Wb0pYQ.jpeg
+description: "Analyzing Lana del Rey's albums and tracks with pandas."
+github: "https://github.com/allielynn/LDR-Music-Analysis"
+format: html
+date: July 24, 2024
+---
+
+[GitHub Repo]({{< meta github >}})
+
+![](https://miro.medium.com/v2/resize:fit:640/1*C57VdvYQI0jQAXB0Wb0pYQ.jpeg)
+
+In this analysis, I will be diving into Lana Del Rey's Albums and Tracks along with their popularity ratings given by Spotify. I am drawing from the Spotify API and for context as to how the popularity scores are calculated I have included the description of the popularity score calculation below.
+
+"The Spotify popularity score is a numerical representation of how well a track is performing on the platform. It ranges from 0 to 100, with higher scores indicating higher popularity. This score influences the track’s visibility on Spotify, including its likelihood of being featured on algorithmic playlists like Discover Weekly and Release Radar.
+
+Spotify’s popularity score is determined by a variety of factors:
+
+Streams: The number of times a track is streamed. Recent Activity: More weight is given to recent streams. Engagement: Includes likes, shares, saves, and playlist additions. Listener Behavior: How long listeners play the track and if they skip it. User Interactions: Actions such as follows, comments, and social shares."
+
