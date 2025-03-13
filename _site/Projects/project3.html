@@ -113,8 +113,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#approach" id="toc-approach" class="nav-link active" data-scroll-target="#approach">Approach:</a></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Findings:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -151,9 +158,24 @@ ul.task-list li input[type="checkbox"] {
 
 <p><a href="https://github.com/allielynn/Heart-Failure-">GitHub Repo</a></p>
 <p><img src="https://images.stockcake.com/public/c/5/a/c5a70910-16d6-4148-9561-32ff659cda4a_large/glowing-heart-art-stockcake.jpg" class="img-fluid"></p>
-<p>This project focuses on predicting heart disease using machine learning models to analyze key clinical predictors. By applying Linear Discriminant Analysis (LDA) and validating its assumptions, we found that heart disease risk follows a primarily linear relationship with factors like ejection fraction, high blood pressure, and time. To enhance interpretability, we used LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy. Comparisons with Random Forest and Gradient Boosting confirmed that complex, non-linear models did not improve performance, reinforcing the effectiveness of a linear approach. These findings highlight the potential for interpretable, data-driven models to assist in clinical risk assessment and patient stratification for heart disease.</p>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach:</h2>
+<ul>
+<li>Developed a machine learning model to predict heart disease risk using key clinical predictors.</li>
+<li>Applied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.</li>
+<li>Utilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.</li>
+<li>Compared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results.</li>
+</ul>
+</section>
+<section id="findings" class="level2">
+<h2 class="anchored" data-anchor-id="findings">Findings:</h2>
+<ul>
+<li>Achieved 83.33% accuracy using only the most linear predictors: ejection fraction, high blood pressure, and time.</li>
+<li>Demonstrated the potential of interpretable, data-driven models to aid in clinical risk assessment and patient stratification for heart disease.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

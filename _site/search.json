@@ -11,28 +11,63 @@
     "href": "index.html",
     "title": "Allison Lynn",
     "section": "",
-    "text": "I am third year at UCLA, majoring in Statistics and Data Science. My passion lies in using data-driven solutions to create a positive impact. I have developed a strong foundation in mathematics, statistics, and programming. I am proficient in Python, and R, and skilled in using SQL for efficient database management. Additionally, I have knowledge of neural networks, machine learning, and statistical modeling, further enhancing my technical capabilities.\nResume"
+    "text": "I am third year at UCLA, majoring in Statistics and Data Science. My passion lies in using data-driven solutions to create a positive impact. I have developed a strong foundation in mathematics, statistics, and programming. I am proficient in Python, and R, and skilled in using SQL for efficient database management. Additionally, I’ve developed several projects working with statistical modeling, machine learning, and neural networks, further enhancing my technical capabilities.\nResume"
   },
   {
     "objectID": "Projects/project3.html",
     "href": "Projects/project3.html",
     "title": "Predicting Heart Failure in Patients",
     "section": "",
-    "text": "GitHub Repo\n\nThis project focuses on predicting heart disease using machine learning models to analyze key clinical predictors. By applying Linear Discriminant Analysis (LDA) and validating its assumptions, we found that heart disease risk follows a primarily linear relationship with factors like ejection fraction, high blood pressure, and time. To enhance interpretability, we used LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy. Comparisons with Random Forest and Gradient Boosting confirmed that complex, non-linear models did not improve performance, reinforcing the effectiveness of a linear approach. These findings highlight the potential for interpretable, data-driven models to assist in clinical risk assessment and patient stratification for heart disease."
+    "text": "GitHub Repo"
+  },
+  {
+    "objectID": "Projects/project3.html#findings",
+    "href": "Projects/project3.html#findings",
+    "title": "Predicting Heart Failure in Patients",
+    "section": "Findings:",
+    "text": "Findings:\n\nAchieved 83.33% accuracy using only the most linear predictors: ejection fraction, high blood pressure, and time.\nDemonstrated the potential of interpretable, data-driven models to aid in clinical risk assessment and patient stratification for heart disease."
   },
   {
     "objectID": "Projects/project1.html",
     "href": "Projects/project1.html",
     "title": "Predicting NBA Game Outcomes",
     "section": "",
-    "text": "GitHub Repo\n\nThis project, conducted in collaboration with other UCLA students as part of our Data Mining course, aimed to predict NBA game outcomes using historical data from the 2023-2024 season, which included 2,460 entries with features such as team performance metrics, game statistics, and match outcomes. Through extensive feature engineering, advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, and ELO ratings were introduced, alongside rolling averages, win streaks, matchup history, and stability (variance in team metrics over recent games). An exponential decay weighting system was applied to emphasize recent games. Various machine learning models, including Gradient Boosting, Random Forest, SVC, LDA, and QDA, were evaluated. Gradient Boosting and Random Forest emerged as the most effective, achieving a prediction accuracy of 93.87% by capturing complex linear and non-linear patterns in the data. Key features such as team and opponent ELO ratings and historical matchup performance highlighted the interactive and opponent-dependent nature of game outcomes. This project showcased the power of advanced modeling and feature engineering in sports analytics."
+    "text": "GitHub Repo\nUsing historical season data, this project aimed to predict NBA game results for the 2023-2024 season through feature engineering and machine learning models employed in Python."
+  },
+  {
+    "objectID": "Projects/project1.html#approach",
+    "href": "Projects/project1.html#approach",
+    "title": "Predicting NBA Game Outcomes",
+    "section": "Approach:",
+    "text": "Approach:\n\nProcessed data from 2,460 NBA games, incorporating features such as team performance metrics, game statistics, and match history.\nApplied extensive feature engineering, introducing advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, ELO ratings, rolling averages, win streaks, and variance stability measures.\nUtilized exponential decay weighting to emphasize recent games over older performances.\nEmployed Linear SVC for feature selection.\nEvaluated multiple machine learning models, including Gradient Boosting, Random Forest, LDA, and QDA."
+  },
+  {
+    "objectID": "Projects/project1.html#findings",
+    "href": "Projects/project1.html#findings",
+    "title": "Predicting NBA Game Outcomes",
+    "section": "Findings:",
+    "text": "Findings:\n\nGradient Boosting and Random Forest emerged as the top models, achieving a prediction accuracy of 93.87%.\nELO ratings and opponent-dependent statistics were key features for game prediction, emphasizing the interactive nature of basketball matchups.\nNon-linear models (Gradient Boosting and Random Forest) outperformed linear classifiers, demonstrating the complex relationships in game outcomes.\nGame outcome prediction significantly benefits from engineered features rather than raw statistics alone."
   },
   {
     "objectID": "Projects/project4.html",
     "href": "Projects/project4.html",
     "title": "LDR Music Analysis",
     "section": "",
-    "text": "GitHub Repo\n\nIn this analysis, I will be diving into Lana Del Rey’s Albums and Tracks along with their popularity ratings given by Spotify. I am drawing from the Spotify API and for context as to how the popularity scores are calculated I have included the description of the popularity score calculation below.\n“The Spotify popularity score is a numerical representation of how well a track is performing on the platform. It ranges from 0 to 100, with higher scores indicating higher popularity. This score influences the track’s visibility on Spotify, including its likelihood of being featured on algorithmic playlists like Discover Weekly and Release Radar.\nSpotify’s popularity score is determined by a variety of factors:\nStreams: The number of times a track is streamed. Recent Activity: More weight is given to recent streams. Engagement: Includes likes, shares, saves, and playlist additions. Listener Behavior: How long listeners play the track and if they skip it. User Interactions: Actions such as follows, comments, and social shares.”"
+    "text": "GitHub Repo"
+  },
+  {
+    "objectID": "Projects/project4.html#approach",
+    "href": "Projects/project4.html#approach",
+    "title": "LDR Music Analysis",
+    "section": "Approach:",
+    "text": "Approach:\n\nRetrieved Lana Del Rey’s album and track data using Spotify’s API, extracting features such as popularity, tempo, and energy.\nProcessed and cleaned the data using pandas in Python, structuring it for analysis.\nConducted an exploratory data analysis (EDA) to examine trends across albums and tracks."
+  },
+  {
+    "objectID": "Projects/project4.html#findings",
+    "href": "Projects/project4.html#findings",
+    "title": "LDR Music Analysis",
+    "section": "Findings:",
+    "text": "Findings:\n\nIdentified Born to Die as the most popular album, aligning with the top remix tracks, which also originated from Born to Die.\nVisualized key track metrics, comparing popularity ratings across all albums."
   },
   {
     "objectID": "Projects/project6.html",
@@ -42,25 +77,67 @@
     "text": "GitHub Repo"
   },
   {
+    "objectID": "Projects/project6.html#approach",
+    "href": "Projects/project6.html#approach",
+    "title": "ICU Stay Predictions using NLP",
+    "section": "Approach:",
+    "text": "Approach:\n\nDeveloped a predictive model using Natural Language Processing (NLP) and machine learning to estimate ICU length of stay based on caregiver discharge notes from the MIMIC III dataset.\nEngineered text embeddings with BioBERT and applied Random Forest and Gradient Boosting regression models to capture complex relationships in clinical text."
+  },
+  {
+    "objectID": "Projects/project6.html#findings",
+    "href": "Projects/project6.html#findings",
+    "title": "ICU Stay Predictions using NLP",
+    "section": "Findings:",
+    "text": "Findings:\n\nAchieved an \\(R^2\\) of 0.5246, explaining 52.46% of ICU stay variability using only textual discharge summaries.\nApplying this methodology to intake summaries could enhance ICU capacity planning, provide insight for doctors on patient stay expectations, and assist patients in financial planning and decision-making."
+  },
+  {
     "objectID": "Projects/project5.html",
     "href": "Projects/project5.html",
     "title": "Caffiene Analysis",
     "section": "",
-    "text": "GitHub Repo\n\nAs part of an experimental design course at UCLA, I collaborated with a team to conduct an in-depth analysis of caffeine’s effects on attention scores using a simulated island environment. The project used a two-way randomized block design to control for variability and ensure reliable data collection. We aimed to identify the effect of various caffeine levels on attention scores by administering doses followed by an attention test. After gathering data through a carefully structured experimental design, which included randomization, consistent caffeine dosing, and control groups, we applied linear regression modeling techniques in R to analyze the results. A crucial part of our analysis involved verifying the assumptions of linear regression—constant variance, linearity, and normality—by reviewing the diagnostic plots. We used interaction plots to explore relationships between predictor variables and their combined effects on attention scores, and box plots to visualize the distribution and variance in attention across different levels of caffeine intake. Our results provided a nuanced understanding of how caffeine consumption affects attention, offering insights that could even influence personal decisions regarding caffeine consumption and its impact on focus and cognitive performance."
+    "text": "GitHub Repo"
+  },
+  {
+    "objectID": "Projects/project5.html#approach",
+    "href": "Projects/project5.html#approach",
+    "title": "Caffiene Analysis",
+    "section": "Approach:",
+    "text": "Approach:\n\nCollaborated with a team as part of an experimental design course at UCLA to analyze caffeine’s effects on attention scores using a simulated island environment.\nDesigned a two-way randomized block experiment to control for variability and ensure reliable data collection.\nAdministered varying caffeine doses followed by attention tests to measure cognitive performance.\nApplied linear regression modeling in R to analyze the effects of caffeine on attention scores."
+  },
+  {
+    "objectID": "Projects/project5.html#findings",
+    "href": "Projects/project5.html#findings",
+    "title": "Caffiene Analysis",
+    "section": "Findings:",
+    "text": "Findings:\n\nVerified key assumptions of linear regression, including constant variance, linearity, and normality, by reviewing diagnostic plots. Used interaction plots to examine combined effects of predictor variables and box plots to visualize distribution and variance in attention scores across different caffeine intake levels.\nProvided insights into how caffeine consumption influences focus and cognitive performance, contributing to research on behavioral and cognitive effects of stimulants."
   },
   {
     "objectID": "Projects/project2.html",
     "href": "Projects/project2.html",
     "title": "NBA Salary Analysis",
     "section": "",
-    "text": "GitHub Repo\n\nAs part of a linear regression course at UCLA, I collaborated with a team of peers to conduct an in-depth analysis of NBA player salaries, aiming to identify significant predictors influencing salary variations. Employing linear modeling techniques in R, we examined potential predictors, assessing their statistical significance. A crucial component of our analysis involved verifying the assumptions of linear regression (constant variance, linearity, and normality) by evaluating the diagnostic plots. To better satisfy these assumptions, we applied a transformation to the target variable, improving the model assumptions. After addressing outliers and ensuring the model met regression assumptions, we selected the optimal model based on AIC, AICc, and BIC, effectively managing multicollinearity. Our model provided valuable insights into the factors influencing NBA player salaries, allowing us to explore salary fluctuations and the nuances of significant predictor variables. By incorporating research on the basketball industry, we were able to interpret our findings more effectively, offering a comprehensive, data-driven perspective on the determinants of NBA player salaries."
+    "text": "GitHub Repo"
+  },
+  {
+    "objectID": "Projects/project2.html#approach",
+    "href": "Projects/project2.html#approach",
+    "title": "NBA Salary Analysis",
+    "section": "Approach:",
+    "text": "Approach:\n\nConducted an in-depth analysis of NBA player salaries using statistical modeling.\nVerified the assumptions of linear regression, including constant variance, linearity, and normality, using diagnostic plots.\nTransformed the salary variable through an inverse response method to better satisfy model assumptions.\nPerformed variable selection and model evaluation using AIC, AICc, and BIC, ensuring an optimal balance between model complexity and performance."
+  },
+  {
+    "objectID": "Projects/project2.html#findings",
+    "href": "Projects/project2.html#findings",
+    "title": "NBA Salary Analysis",
+    "section": "Findings:",
+    "text": "Findings:\n\nPerformance metrics such as points per game, age, and total rebounds were significant predictors of salary.\nAddressing outliers and ensuring model assumptions were met improved predictive performance.\nWhile linear regression provided meaningful salary insights, the relationship between performance and salary is influenced by factors beyond in-game statistics, such as contract negotiations and marketability."
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "ICU Stay Predictions using NLP\n\n\n\n\n\nAnalyzed caretaker notes to predict ICU stay length using NLP\n\n\n\n\n\nhttps://github.com/allielynn/NLP-ICU-Predictions\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Heart Failure in Patients\n\n\n\n\n\nUsing Linear Discriminant Analysis to predict heart failure.\n\n\n\n\n\nhttps://github.com/allielynn/Heart-Failure-\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NBA Game Outcomes\n\n\n\n\n\nUsing machine learning to predict NBA game outcomes.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Game-Outcomes\n\n\n\n\n\n\n\n\n\n\n\n\nLDR Music Analysis\n\n\n\n\n\nAnalyzing Lana del Rey’s albums and tracks with pandas.\n\n\n\n\n\nhttps://github.com/allielynn/LDR-Music-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nCaffiene Analysis\n\n\n\n\n\nExperimental design project on the impacts of caffeine on attention levels.\n\n\n\n\n\nhttps://github.com/allielynn/Caffeine-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Salary Analysis\n\n\n\n\n\nUsing linear regression to predict NBA player salaries.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Salaries\n\n\n\n\n\n\nNo matching items"
+    "text": "ICU Stay Predictions using NLP\n\n\n\n\n\nPredicting ICU stay length using NLP on discharge summaries. \n\n\n\n\n\nhttps://github.com/allielynn/ICU-Stay-Prediction\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Heart Failure in Patients\n\n\n\n\n\nUsing Linear Discriminant Analysis to predict heart failure.\n\n\n\n\n\nhttps://github.com/allielynn/Heart-Failure-\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting NBA Game Outcomes\n\n\n\n\n\nUsing machine learning to predict NBA game outcomes.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nLDR Music Analysis\n\n\n\n\n\nAnalyzing Lana del Rey’s albums and tracks with pandas.\n\n\n\n\n\nhttps://github.com/allielynn/LDR-Music-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nCaffiene Analysis\n\n\n\n\n\nExperimental design project on the impacts of caffeine on attention levels.\n\n\n\n\n\nhttps://github.com/allielynn/Caffeine-Analysis\n\n\n\n\n\n\n\n\n\n\n\n\nNBA Salary Analysis\n\n\n\n\n\nUsing linear regression to predict NBA player salaries.\n\n\n\n\n\nhttps://github.com/allielynn/NBA-Analysis\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -81,7 +158,7 @@
     "href": "about.html#experience",
     "title": "About",
     "section": "Experience",
-    "text": "Experience\nRyan, LLC | Data Strategy Intern | June 2024 - Aug 2024\nIn my role as a Data Strategy Intern at Ryan, I collaborated closely with technology leaders to streamline data pipelines and analysis processes through automation. I crafted SQL queries for database manipulation and cleaning, working primarily in Databricks. Additionally, I developed Python scripts for large-scale data analysis, and I practiced data visualization techniques working with tools such as Tableau and Power BI. I also employed large language models to optimize data solutions and enhance data processing capabilities. I gained knowledge on machine learning techniques using PyTorch, applying neural network structures while drawing on my background of statistical modeling. My work was organized using Agile methodologies, including sprint planning with Azure DevOps, to ensure efficient project execution and continuous improvement. This experience significantly improved my ability to work efficiently in iterative cycles, adapt to changing project requirements, and contribute effectively to team goals.\n\nUnlimited Tutoring | Calculus Tutor | April 2023 - June 2024\nIn my role as a Mathematics Tutor, I conducted remote tutoring sessions for both high school and college mathematics courses. Leveraging my extensive mathematics knowledge and strong communication skills, I provided one-on-one tutoring, specializing in Calculus, Statistics, and other advanced mathematics subjects. This role has significantly improved my ability to present complex concepts in an easy-to-understand manner, a skill essential for a data scientist. This experience has also enhanced my communication skills, allowing me to communicate insights clearly and effectively."
+    "text": "Experience\nRyan, LLC | Data Strategy Intern | June 2024 - Aug 2024\n\nWorked with machine learning, deep learning, and NLP pipelines by leveraging PyTorch, TensorFlow, and BERT.\nDeveloped Python scripts to automate and optimize large-scale data analysis processes.\nDesigned data visualizations using Tableau and Power BI.\nCrafted SQL queries to efficiently manage and maintain databases in Databricks, contributing to the successful implementation of a data lake storage solution.\nWorked under Agile methodologies, utilizing sprint planning and Azure DevOps to ensure iterative improvements and efficient project execution.\n\n\nUnlimited Tutoring | Calculus Tutor | April 2023 - June 2024\n\nConducted remote tutoring sessions for high school and college-level mathematics courses.\nLeveraged extensive mathematics knowledge and strong communication skills to explain complex concepts effectively.\nEnhanced communication skills, ensuring clear and effective explanation of techincal concepts."
   },
   {
     "objectID": "about.html#skills",
@@ -89,5 +166,12 @@
     "title": "About",
     "section": "Skills",
     "text": "Skills\nData Science: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks\nLanguages: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL\nMathematics: Calculus, Linear Algebra, Probability Theory, Optimization\nData Engineering: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel"
+  },
+  {
+    "objectID": "Projects/project3.html#approach",
+    "href": "Projects/project3.html#approach",
+    "title": "Predicting Heart Failure in Patients",
+    "section": "Approach:",
+    "text": "Approach:\n\nDeveloped a machine learning model to predict heart disease risk using key clinical predictors.\nApplied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.\nUtilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.\nCompared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results."
   }
 ]

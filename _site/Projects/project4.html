@@ -113,8 +113,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#approach" id="toc-approach" class="nav-link active" data-scroll-target="#approach">Approach:</a></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Findings:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -151,12 +158,23 @@ ul.task-list li input[type="checkbox"] {
 
 <p><a href="https://github.com/allielynn/LDR-Music-Analysis">GitHub Repo</a></p>
 <p><img src="https://miro.medium.com/v2/resize:fit:640/1*C57VdvYQI0jQAXB0Wb0pYQ.jpeg" class="img-fluid"></p>
-<p>In this analysis, I will be diving into Lana Del Rey’s Albums and Tracks along with their popularity ratings given by Spotify. I am drawing from the Spotify API and for context as to how the popularity scores are calculated I have included the description of the popularity score calculation below.</p>
-<p>“The Spotify popularity score is a numerical representation of how well a track is performing on the platform. It ranges from 0 to 100, with higher scores indicating higher popularity. This score influences the track’s visibility on Spotify, including its likelihood of being featured on algorithmic playlists like Discover Weekly and Release Radar.</p>
-<p>Spotify’s popularity score is determined by a variety of factors:</p>
-<p>Streams: The number of times a track is streamed. Recent Activity: More weight is given to recent streams. Engagement: Includes likes, shares, saves, and playlist additions. Listener Behavior: How long listeners play the track and if they skip it. User Interactions: Actions such as follows, comments, and social shares.”</p>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach:</h2>
+<ul>
+<li>Retrieved Lana Del Rey’s album and track data using Spotify’s API, extracting features such as popularity, tempo, and energy.</li>
+<li>Processed and cleaned the data using pandas in Python, structuring it for analysis.</li>
+<li>Conducted an exploratory data analysis (EDA) to examine trends across albums and tracks.</li>
+</ul>
+</section>
+<section id="findings" class="level2">
+<h2 class="anchored" data-anchor-id="findings">Findings:</h2>
+<ul>
+<li>Identified Born to Die as the most popular album, aligning with the top remix tracks, which also originated from Born to Die.</li>
+<li>Visualized key track metrics, comparing popularity ratings across all albums.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

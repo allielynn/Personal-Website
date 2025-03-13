@@ -113,8 +113,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#approach" id="toc-approach" class="nav-link active" data-scroll-target="#approach">Approach:</a></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Findings:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -149,11 +156,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://github.com/allielynn/NBA-Salaries">GitHub Repo</a></p>
+<p><a href="https://github.com/allielynn/NBA-Analysis">GitHub Repo</a></p>
 <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHKV7XVW-paacYJFV54itH3dlKITwtXU_HgA&amp;s.png" class="img-fluid"></p>
-<p>As part of a linear regression course at UCLA, I collaborated with a team of peers to conduct an in-depth analysis of NBA player salaries, aiming to identify significant predictors influencing salary variations. Employing linear modeling techniques in R, we examined potential predictors, assessing their statistical significance. A crucial component of our analysis involved verifying the assumptions of linear regression (constant variance, linearity, and normality) by evaluating the diagnostic plots. To better satisfy these assumptions, we applied a transformation to the target variable, improving the model assumptions. After addressing outliers and ensuring the model met regression assumptions, we selected the optimal model based on AIC, AICc, and BIC, effectively managing multicollinearity. Our model provided valuable insights into the factors influencing NBA player salaries, allowing us to explore salary fluctuations and the nuances of significant predictor variables. By incorporating research on the basketball industry, we were able to interpret our findings more effectively, offering a comprehensive, data-driven perspective on the determinants of NBA player salaries.</p>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach:</h2>
+<ul>
+<li>Conducted an in-depth analysis of NBA player salaries using statistical modeling.</li>
+<li>Verified the assumptions of linear regression, including constant variance, linearity, and normality, using diagnostic plots.</li>
+<li>Transformed the salary variable through an inverse response method to better satisfy model assumptions.</li>
+<li>Performed variable selection and model evaluation using AIC, AICc, and BIC, ensuring an optimal balance between model complexity and performance.</li>
+</ul>
+</section>
+<section id="findings" class="level2">
+<h2 class="anchored" data-anchor-id="findings">Findings:</h2>
+<ul>
+<li>Performance metrics such as points per game, age, and total rebounds were significant predictors of salary.</li>
+<li>Addressing outliers and ensuring model assumptions were met improved predictive performance.</li>
+<li>While linear regression provided meaningful salary insights, the relationship between performance and salary is influenced by factors beyond in-game statistics, such as contract negotiations and marketability.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
