@@ -21,6 +21,13 @@
     "text": "GitHub Repo"
   },
   {
+    "objectID": "Projects/project3.html#approach",
+    "href": "Projects/project3.html#approach",
+    "title": "Predicting Heart Failure in Patients",
+    "section": "Approach:",
+    "text": "Approach:\n\nDeveloped a machine learning model to predict heart disease risk using key clinical predictors.\nApplied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.\nUtilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.\nCompared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results."
+  },
+  {
     "objectID": "Projects/project3.html#findings",
     "href": "Projects/project3.html#findings",
     "title": "Predicting Heart Failure in Patients",
@@ -60,7 +67,7 @@
     "href": "Projects/project4.html#approach",
     "title": "LDR Music Analysis",
     "section": "Approach:",
-    "text": "Approach:\n\nRetrieved Lana Del Rey’s album and track data using Spotify’s API, extracting features such as popularity, tempo, and energy.\nProcessed and cleaned the data using pandas in Python, structuring it for analysis.\nConducted an exploratory data analysis (EDA) to examine trends across albums and tracks."
+    "text": "Approach:\n\nRetrieved Lana Del Rey’s album and track data using Spotify’s API, extracting falbums, tracks, and popularity ratings.\nProcessed and cleaned the data using pandas in Python, structuring it for analysis.\nConducted an exploratory data analysis (EDA) to examine trends across albums and tracks."
   },
   {
     "objectID": "Projects/project4.html#findings",
@@ -166,12 +173,5 @@
     "title": "About",
     "section": "Skills",
     "text": "Skills\nData Science: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks\nLanguages: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL\nMathematics: Calculus, Linear Algebra, Probability Theory, Optimization\nData Engineering: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel"
-  },
-  {
-    "objectID": "Projects/project3.html#approach",
-    "href": "Projects/project3.html#approach",
-    "title": "Predicting Heart Failure in Patients",
-    "section": "Approach:",
-    "text": "Approach:\n\nDeveloped a machine learning model to predict heart disease risk using key clinical predictors.\nApplied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.\nUtilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.\nCompared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results."
   }
 ]

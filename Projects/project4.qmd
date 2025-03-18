@@ -7,15 +7,17 @@ format: html
 date: July 24, 2024
 ---
 
-[GitHub Repo]({{< meta github >}})
+[GitHub Repo](%7B%7B%3C%20meta%20github%20%3E%7D%7D)
 
 ![](https://miro.medium.com/v2/resize:fit:640/1*C57VdvYQI0jQAXB0Wb0pYQ.jpeg)
 
 ## Approach:
-- Retrieved Lana Del Rey’s album and track data using Spotify’s API, extracting features such as popularity, tempo, and energy.
-- Processed and cleaned the data using pandas in Python, structuring it for analysis.
-- Conducted an exploratory data analysis (EDA) to examine trends across albums and tracks.
+
+-   Retrieved Lana Del Rey's album and track data using Spotify's API, extracting falbums, tracks, and popularity ratings.
+-   Processed and cleaned the data using pandas in Python, structuring it for analysis.
+-   Conducted an exploratory data analysis (EDA) to examine trends across albums and tracks.
 
 ## Findings:
-- Identified Born to Die as the most popular album, aligning with the top remix tracks, which also originated from Born to Die.
-- Visualized key track metrics, comparing popularity ratings across all albums.
+
+-   Identified Born to Die as the most popular album, aligning with the top remix tracks, which also originated from Born to Die.
+-   Visualized key track metrics, comparing popularity ratings across all albums.

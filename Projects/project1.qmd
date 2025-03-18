@@ -7,21 +7,23 @@ date: December 12, 2024
 format: html
 ---
 
-[GitHub Repo]({{< meta github >}})
+[GitHub Repo](%7B%7B%3C%20meta%20github%20%3E%7D%7D)
 
-![](https://www.aljazeera.com/wp-content/uploads/2024/10/2024-10-11T013631Z_2017726860_MT1USATODAY24457004_RTRMADP_3_NBA-PRESEASON-LOS-ANGELES-LAKERS-AT-MILWAUKEE-BUCKS-1729514163.jpg?resize=1920%2C1080)
+![](https://www.aljazeera.com/wp-content/uploads/2024/10/2024-10-11T013631Z_2017726860_MT1USATODAY24457004_RTRMADP_3_NBA-PRESEASON-LOS-ANGELES-LAKERS-AT-MILWAUKEE-BUCKS-1729514163.jpg?resize=1920%252C1080)
 
 Using historical season data, this project aimed to predict NBA game results for the 2023-2024 season through feature engineering and machine learning models employed in Python.
 
 ## Approach:
-- Processed data from 2,460 NBA games, incorporating features such as team performance metrics, game statistics, and match history.
-- Applied extensive feature engineering, introducing advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, ELO ratings, rolling averages, win streaks, and variance stability measures.
-- Utilized exponential decay weighting to emphasize recent games over older performances.
-- Employed Linear SVC for feature selection.
-- Evaluated multiple machine learning models, including Gradient Boosting, Random Forest, LDA, and QDA.
+
+-   Processed data from 2,460 NBA games, incorporating features such as team performance metrics, game statistics, and match history.
+-   Applied extensive feature engineering, introducing advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, ELO ratings, rolling averages, win streaks, and variance stability measures.
+-   Utilized exponential decay weighting to emphasize recent games over older performances.
+-   Employed Linear SVC for feature selection.
+-   Evaluated multiple machine learning models, including Gradient Boosting, Random Forest, LDA, and QDA.
 
 ## Findings:
-- Gradient Boosting and Random Forest emerged as the top models, achieving a prediction accuracy of 93.87%.
-- ELO ratings and opponent-dependent statistics were key features for game prediction, emphasizing the interactive nature of basketball matchups.
-- Non-linear models (Gradient Boosting and Random Forest) outperformed linear classifiers, demonstrating the complex relationships in game outcomes.
-- Game outcome prediction significantly benefits from engineered features rather than raw statistics alone.
+
+-   Gradient Boosting and Random Forest emerged as the top models, achieving a prediction accuracy of 93.87%.
+-   ELO ratings and opponent-dependent statistics were key features for game prediction, emphasizing the interactive nature of basketball matchups.
+-   Non-linear models (Gradient Boosting and Random Forest) outperformed linear classifiers, demonstrating the complex relationships in game outcomes.
+-   Game outcome prediction significantly benefits from engineered features rather than raw statistics alone.

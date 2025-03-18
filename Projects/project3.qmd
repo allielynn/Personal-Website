@@ -7,16 +7,18 @@ format: html
 date: March 9, 2025
 ---
 
-[GitHub Repo]({{< meta github >}})
+[GitHub Repo](%7B%7B%3C%20meta%20github%20%3E%7D%7D)
 
 ![](https://images.stockcake.com/public/c/5/a/c5a70910-16d6-4148-9561-32ff659cda4a_large/glowing-heart-art-stockcake.jpg)
 
 ## Approach:
-- Developed a machine learning model to predict heart disease risk using key clinical predictors.
-- Applied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.
-- Utilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.
-- Compared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results.
+
+-   Developed a machine learning model to predict heart disease risk using key clinical predictors.
+-   Applied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.
+-   Utilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.
+-   Compared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results.
 
 ## Findings:
-- Achieved 83.33% accuracy using only the most linear predictors: ejection fraction, high blood pressure, and time.
-- Demonstrated the potential of interpretable, data-driven models to aid in clinical risk assessment and patient stratification for heart disease.
+
+-   Achieved 83.33% accuracy using only the most linear predictors: ejection fraction, high blood pressure, and time.
+-   Demonstrated the potential of interpretable, data-driven models to aid in clinical risk assessment and patient stratification for heart disease.
