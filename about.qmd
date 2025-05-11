@@ -17,22 +17,19 @@ Coursework: Data Analysis and Regression, Probability Theory, Design and Analysi
 
 Ryan, LLC \| Data Strategy Intern \| June 2024 - Aug 2024
 
-- Worked with machine learning, deep learning, and NLP pipelines by leveraging PyTorch, TensorFlow, and BERT. 
-- Developed Python scripts to automate and optimize large-scale data analysis processes.
-- Designed data visualizations using Tableau and Power BI.
-- Crafted SQL queries to efficiently manage and maintain databases in Databricks, contributing to the successful implementation of a data lake storage solution.
-- Worked under Agile methodologies, utilizing sprint planning and Azure DevOps to ensure iterative improvements and efficient project execution.
+-   Worked with machine learning, deep learning, and NLP pipelines by leveraging PyTorch, TensorFlow, and BERT.
+-   Developed Python scripts to automate and optimize large-scale data analysis processes.
+-   Designed data visualizations using Tableau and Power BI.
+-   Crafted SQL queries to efficiently manage and maintain databases in Databricks, contributing to the successful implementation of a data lake storage solution.
+-   Worked under Agile methodologies, utilizing sprint planning and Azure DevOps to ensure iterative improvements and efficient project execution.
 
-
------------------------------------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------
 
 Unlimited Tutoring \| Calculus Tutor \| April 2023 - June 2024
 
-- Conducted remote tutoring sessions for high school and college-level mathematics courses.
-- Leveraged extensive mathematics knowledge and strong communication skills to explain complex concepts effectively.
-- Enhanced communication skills, ensuring clear and effective explanation of technical concepts.
-
+-   Conducted remote tutoring sessions for high school and college-level mathematics courses.
+-   Leveraged extensive mathematics knowledge and strong communication skills to explain complex concepts effectively.
+-   Enhanced communication skills, ensuring clear and effective explanation of technical concepts.
 
 ## Skills
 

@@ -10,6 +10,8 @@ website:
       - href: about.qmd
       - href: projects.qmd
         text: Projects
+      - href: awards.qmd
+        text: Awards
 
 format:
   html:

@@ -14,88 +14,46 @@
     "text": "I am third year at UCLA, majoring in Statistics and Data Science. My passion lies in using data-driven solutions to create a positive impact. I have developed a strong foundation in mathematics, statistics, and programming. I am proficient in Python, and R, and skilled in using SQL for efficient database management. Additionally, I’ve developed several projects working with statistical modeling, machine learning, and neural networks, further enhancing my technical capabilities.\nResume"
   },
   {
-    "objectID": "Projects/project3.html",
-    "href": "Projects/project3.html",
-    "title": "Predicting Heart Failure in Patients",
+    "objectID": "awards.html",
+    "href": "awards.html",
+    "title": "awards",
+    "section": "",
+    "text": "Judges Choice\nDataFest Repo"
+  },
+  {
+    "objectID": "awards.html#datafest-2025",
+    "href": "awards.html#datafest-2025",
+    "title": "awards",
+    "section": "",
+    "text": "Judges Choice\nDataFest Repo"
+  },
+  {
+    "objectID": "awards.html#deans-honors-list-ucla",
+    "href": "awards.html#deans-honors-list-ucla",
+    "title": "awards",
+    "section": "Dean’s Honors List UCLA",
+    "text": "Dean’s Honors List UCLA\nWinter 2023, Fall 2024"
+  },
+  {
+    "objectID": "Projects/project2.html",
+    "href": "Projects/project2.html",
+    "title": "NBA Salary Analysis",
     "section": "",
     "text": "GitHub Repo"
   },
   {
-    "objectID": "Projects/project3.html#approach",
-    "href": "Projects/project3.html#approach",
-    "title": "Predicting Heart Failure in Patients",
+    "objectID": "Projects/project2.html#approach",
+    "href": "Projects/project2.html#approach",
+    "title": "NBA Salary Analysis",
     "section": "Approach:",
-    "text": "Approach:\n\nDeveloped a machine learning model to predict heart disease risk using key clinical predictors.\nApplied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.\nUtilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.\nCompared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results."
+    "text": "Approach:\n\nConducted an in-depth analysis of NBA player salaries using statistical modeling.\nVerified the assumptions of linear regression, including constant variance, linearity, and normality, using diagnostic plots.\nTransformed the salary variable through an inverse response method to better satisfy model assumptions.\nPerformed variable selection and model evaluation using AIC, AICc, and BIC, ensuring an optimal balance between model complexity and performance."
   },
   {
-    "objectID": "Projects/project3.html#findings",
-    "href": "Projects/project3.html#findings",
-    "title": "Predicting Heart Failure in Patients",
+    "objectID": "Projects/project2.html#findings",
+    "href": "Projects/project2.html#findings",
+    "title": "NBA Salary Analysis",
     "section": "Findings:",
-    "text": "Findings:\n\nAchieved 83.33% accuracy using only the most linear predictors: ejection fraction, high blood pressure, and time.\nDemonstrated the potential of interpretable, data-driven models to aid in clinical risk assessment and patient stratification for heart disease."
-  },
-  {
-    "objectID": "Projects/project1.html",
-    "href": "Projects/project1.html",
-    "title": "Predicting NBA Game Outcomes",
-    "section": "",
-    "text": "GitHub Repo\nUsing historical season data, this project aimed to predict NBA game results for the 2023-2024 season through feature engineering and machine learning models employed in Python."
-  },
-  {
-    "objectID": "Projects/project1.html#approach",
-    "href": "Projects/project1.html#approach",
-    "title": "Predicting NBA Game Outcomes",
-    "section": "Approach:",
-    "text": "Approach:\n\nProcessed data from 2,460 NBA games, incorporating features such as team performance metrics, game statistics, and match history.\nApplied extensive feature engineering, introducing advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, ELO ratings, rolling averages, win streaks, and variance stability measures.\nUtilized exponential decay weighting to emphasize recent games over older performances.\nEmployed Linear SVC for feature selection.\nEvaluated multiple machine learning models, including Gradient Boosting, Random Forest, LDA, and QDA."
-  },
-  {
-    "objectID": "Projects/project1.html#findings",
-    "href": "Projects/project1.html#findings",
-    "title": "Predicting NBA Game Outcomes",
-    "section": "Findings:",
-    "text": "Findings:\n\nGradient Boosting and Random Forest emerged as the top models, achieving a prediction accuracy of 93.87%.\nELO ratings and opponent-dependent statistics were key features for game prediction, emphasizing the interactive nature of basketball matchups.\nNon-linear models (Gradient Boosting and Random Forest) outperformed linear classifiers, demonstrating the complex relationships in game outcomes.\nGame outcome prediction significantly benefits from engineered features rather than raw statistics alone."
-  },
-  {
-    "objectID": "Projects/project4.html",
-    "href": "Projects/project4.html",
-    "title": "LDR Music Analysis",
-    "section": "",
-    "text": "GitHub Repo"
-  },
-  {
-    "objectID": "Projects/project4.html#approach",
-    "href": "Projects/project4.html#approach",
-    "title": "LDR Music Analysis",
-    "section": "Approach:",
-    "text": "Approach:\n\nRetrieved Lana Del Rey’s album and track data using Spotify’s API, extracting falbums, tracks, and popularity ratings.\nProcessed and cleaned the data using pandas in Python, structuring it for analysis.\nConducted an exploratory data analysis (EDA) to examine trends across albums and tracks."
-  },
-  {
-    "objectID": "Projects/project4.html#findings",
-    "href": "Projects/project4.html#findings",
-    "title": "LDR Music Analysis",
-    "section": "Findings:",
-    "text": "Findings:\n\nIdentified Born to Die as the most popular album, aligning with the top remix tracks, which also originated from Born to Die.\nVisualized key track metrics, comparing popularity ratings across all albums."
-  },
-  {
-    "objectID": "Projects/project6.html",
-    "href": "Projects/project6.html",
-    "title": "ICU Stay Predictions using NLP",
-    "section": "",
-    "text": "GitHub Repo"
-  },
-  {
-    "objectID": "Projects/project6.html#approach",
-    "href": "Projects/project6.html#approach",
-    "title": "ICU Stay Predictions using NLP",
-    "section": "Approach:",
-    "text": "Approach:\n\nDeveloped a predictive model using Natural Language Processing (NLP) and machine learning to estimate ICU length of stay based on caregiver discharge notes from the MIMIC III dataset.\nEngineered text embeddings with BioBERT and applied Random Forest and Gradient Boosting regression models to capture complex relationships in clinical text."
-  },
-  {
-    "objectID": "Projects/project6.html#findings",
-    "href": "Projects/project6.html#findings",
-    "title": "ICU Stay Predictions using NLP",
-    "section": "Findings:",
-    "text": "Findings:\n\nAchieved an \\(R^2\\) of 0.5246, explaining 52.46% of ICU stay variability using only textual discharge summaries.\nApplying this methodology to intake summaries could enhance ICU capacity planning, provide insight for doctors on patient stay expectations, and assist patients in financial planning and decision-making."
+    "text": "Findings:\n\nPerformance metrics such as points per game, age, and total rebounds were significant predictors of salary.\nAddressing outliers and ensuring model assumptions were met improved predictive performance.\nWhile linear regression provided meaningful salary insights, the relationship between performance and salary is influenced by factors beyond in-game statistics, such as contract negotiations and marketability."
   },
   {
     "objectID": "Projects/project5.html",
@@ -119,25 +77,88 @@
     "text": "Findings:\n\nVerified key assumptions of linear regression, including constant variance, linearity, and normality, by reviewing diagnostic plots. Used interaction plots to examine combined effects of predictor variables and box plots to visualize distribution and variance in attention scores across different caffeine intake levels.\nProvided insights into how caffeine consumption influences focus and cognitive performance, contributing to research on behavioral and cognitive effects of stimulants."
   },
   {
-    "objectID": "Projects/project2.html",
-    "href": "Projects/project2.html",
-    "title": "NBA Salary Analysis",
+    "objectID": "Projects/project6.html",
+    "href": "Projects/project6.html",
+    "title": "ICU Stay Predictions using NLP",
     "section": "",
     "text": "GitHub Repo"
   },
   {
-    "objectID": "Projects/project2.html#approach",
-    "href": "Projects/project2.html#approach",
-    "title": "NBA Salary Analysis",
+    "objectID": "Projects/project6.html#approach",
+    "href": "Projects/project6.html#approach",
+    "title": "ICU Stay Predictions using NLP",
     "section": "Approach:",
-    "text": "Approach:\n\nConducted an in-depth analysis of NBA player salaries using statistical modeling.\nVerified the assumptions of linear regression, including constant variance, linearity, and normality, using diagnostic plots.\nTransformed the salary variable through an inverse response method to better satisfy model assumptions.\nPerformed variable selection and model evaluation using AIC, AICc, and BIC, ensuring an optimal balance between model complexity and performance."
+    "text": "Approach:\n\nDeveloped a predictive model using Natural Language Processing (NLP) and machine learning to estimate ICU length of stay based on caregiver discharge notes from the MIMIC III dataset.\nEngineered text embeddings with BioBERT and applied Random Forest and Gradient Boosting regression models to capture complex relationships in clinical text."
   },
   {
-    "objectID": "Projects/project2.html#findings",
-    "href": "Projects/project2.html#findings",
-    "title": "NBA Salary Analysis",
+    "objectID": "Projects/project6.html#findings",
+    "href": "Projects/project6.html#findings",
+    "title": "ICU Stay Predictions using NLP",
     "section": "Findings:",
-    "text": "Findings:\n\nPerformance metrics such as points per game, age, and total rebounds were significant predictors of salary.\nAddressing outliers and ensuring model assumptions were met improved predictive performance.\nWhile linear regression provided meaningful salary insights, the relationship between performance and salary is influenced by factors beyond in-game statistics, such as contract negotiations and marketability."
+    "text": "Findings:\n\nAchieved an \\(R^2\\) of 0.5246, explaining 52.46% of ICU stay variability using only textual discharge summaries.\nApplying this methodology to intake summaries could enhance ICU capacity planning, provide insight for doctors on patient stay expectations, and assist patients in financial planning and decision-making."
+  },
+  {
+    "objectID": "Projects/project4.html",
+    "href": "Projects/project4.html",
+    "title": "LDR Music Analysis",
+    "section": "",
+    "text": "GitHub Repo"
+  },
+  {
+    "objectID": "Projects/project4.html#approach",
+    "href": "Projects/project4.html#approach",
+    "title": "LDR Music Analysis",
+    "section": "Approach:",
+    "text": "Approach:\n\nRetrieved Lana Del Rey’s album and track data using Spotify’s API, extracting falbums, tracks, and popularity ratings.\nProcessed and cleaned the data using pandas in Python, structuring it for analysis.\nConducted an exploratory data analysis (EDA) to examine trends across albums and tracks."
+  },
+  {
+    "objectID": "Projects/project4.html#findings",
+    "href": "Projects/project4.html#findings",
+    "title": "LDR Music Analysis",
+    "section": "Findings:",
+    "text": "Findings:\n\nIdentified Born to Die as the most popular album, aligning with the top remix tracks, which also originated from Born to Die.\nVisualized key track metrics, comparing popularity ratings across all albums."
+  },
+  {
+    "objectID": "Projects/project1.html",
+    "href": "Projects/project1.html",
+    "title": "Predicting NBA Game Outcomes",
+    "section": "",
+    "text": "GitHub Repo\nUsing historical season data, this project aimed to predict NBA game results for the 2023-2024 season through feature engineering and machine learning models employed in Python."
+  },
+  {
+    "objectID": "Projects/project1.html#approach",
+    "href": "Projects/project1.html#approach",
+    "title": "Predicting NBA Game Outcomes",
+    "section": "Approach:",
+    "text": "Approach:\n\nProcessed data from 2,460 NBA games, incorporating features such as team performance metrics, game statistics, and match history.\nApplied extensive feature engineering, introducing advanced metrics like True Shooting Percentage, Effective Field Goal Percentage, ELO ratings, rolling averages, win streaks, and variance stability measures.\nUtilized exponential decay weighting to emphasize recent games over older performances.\nEmployed Linear SVC for feature selection.\nEvaluated multiple machine learning models, including Gradient Boosting, Random Forest, LDA, and QDA."
+  },
+  {
+    "objectID": "Projects/project1.html#findings",
+    "href": "Projects/project1.html#findings",
+    "title": "Predicting NBA Game Outcomes",
+    "section": "Findings:",
+    "text": "Findings:\n\nGradient Boosting and Random Forest emerged as the top models, achieving a prediction accuracy of 93.87%.\nELO ratings and opponent-dependent statistics were key features for game prediction, emphasizing the interactive nature of basketball matchups.\nNon-linear models (Gradient Boosting and Random Forest) outperformed linear classifiers, demonstrating the complex relationships in game outcomes.\nGame outcome prediction significantly benefits from engineered features rather than raw statistics alone."
+  },
+  {
+    "objectID": "Projects/project3.html",
+    "href": "Projects/project3.html",
+    "title": "Predicting Heart Failure in Patients",
+    "section": "",
+    "text": "GitHub Repo"
+  },
+  {
+    "objectID": "Projects/project3.html#approach",
+    "href": "Projects/project3.html#approach",
+    "title": "Predicting Heart Failure in Patients",
+    "section": "Approach:",
+    "text": "Approach:\n\nDeveloped a machine learning model to predict heart disease risk using key clinical predictors.\nApplied Linear Discriminant Analysis (LDA) and validated its assumptions, confirming a primarily linear relationship between predictors and heart disease.\nUtilized LASSO regression for feature selection, simplifying the model while maintaining predictive accuracy.\nCompared performance with Random Forest and Gradient Boosting, confirming that complex, non-linear models did not improve results."
+  },
+  {
+    "objectID": "Projects/project3.html#findings",
+    "href": "Projects/project3.html#findings",
+    "title": "Predicting Heart Failure in Patients",
+    "section": "Findings:",
+    "text": "Findings:\n\nAchieved 83.33% accuracy using only the most linear predictors: ejection fraction, high blood pressure, and time.\nDemonstrated the potential of interpretable, data-driven models to aid in clinical risk assessment and patient stratification for heart disease."
   },
   {
     "objectID": "projects.html",

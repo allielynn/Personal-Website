@@ -1,0 +1,17 @@
+---
+title: "awards"
+editor: visual
+about:
+  template: marquee
+  image: IMG_1277.JPG
+---
+
+## DataFest 2025
+
+Judges Choice
+
+[DataFest Repo](https://github.com/allielynn/DataFest_2025-Real_Estate_Analysis)
+
+## Dean's Honors List UCLA
+
+Winter 2023, Fall 2024
