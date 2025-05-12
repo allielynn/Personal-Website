@@ -33,10 +33,14 @@ Unlimited Tutoring \| Calculus Tutor \| April 2023 - June 2024
 
 ## Skills
 
-<strong>Data Science</strong>: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks
+<b>Statistical Modeling & Machine Learning</b>: Logistic Regression, Linear Regression, LDA, QDA, Random Forest,
+Gradient Boosting, Lasso, Ridge, Linear SVC, Kernel SVM, KNN, PCA, Neural Networks
 
-<strong>Languages</strong>: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL
+<strong>Data Analysis & Visualization</strong>: EDA, Experimental Design, Data Mining, Data Visualization (Tableau, Power BI) 
+
+<strong>Programming & Tools</strong>: Python (pandas, matplotlib, PyTorch, scikit-learn), R, SQL, Git, Excel
 
 <strong>Mathematics</strong>: Calculus, Linear Algebra, Probability Theory, Optimization
 
-<strong>Data Engineering</strong>: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel
+<strong>Data Engineering</strong>: ETL, Databricks
+

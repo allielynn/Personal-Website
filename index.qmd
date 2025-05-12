@@ -20,4 +20,4 @@ about:
 
 I am third year at UCLA, majoring in Statistics and Data Science. My passion lies in using data-driven solutions to create a positive impact. I have developed a strong foundation in mathematics, statistics, and programming. I am proficient in Python, and R, and skilled in using SQL for efficient database management. Additionally, I've developed several projects working with statistical modeling, machine learning, and neural networks, further enhancing my technical capabilities.
 
-[Resume](/Resume-Allison.Lynn.pdf)
+[Resume](/Resume-Allison_Lynn.pdf)

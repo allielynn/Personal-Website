@@ -18,14 +18,14 @@
     "href": "awards.html",
     "title": "awards",
     "section": "",
-    "text": "Judges Choice\nDataFest Repo"
+    "text": "Modeling Urban Flight in U.S. Commercial Real Estate ASA DataFest 2025 – Judges’ Choice\n\nAnalyzed a proprietary dataset from Savills over a 42-hour period to investigate seven-year trends in commercial lease migration across the U.S.\nEngineered features and built a logistic regression model to classify lease location type (suburban vs. central business district) with 90% accuracy.\nDelivered actionable insights tailored to market conditions, industry type, and building attributes to support client advisory strategies.\nRecognized with the Judges’ Choice Award for outstanding analytical rigor, creativity, and interpretability among 50+ participating teams.\n\nDataFest Repo"
   },
   {
     "objectID": "awards.html#datafest-2025",
     "href": "awards.html#datafest-2025",
     "title": "awards",
     "section": "",
-    "text": "Judges Choice\nDataFest Repo"
+    "text": "Modeling Urban Flight in U.S. Commercial Real Estate ASA DataFest 2025 – Judges’ Choice\n\nAnalyzed a proprietary dataset from Savills over a 42-hour period to investigate seven-year trends in commercial lease migration across the U.S.\nEngineered features and built a logistic regression model to classify lease location type (suburban vs. central business district) with 90% accuracy.\nDelivered actionable insights tailored to market conditions, industry type, and building attributes to support client advisory strategies.\nRecognized with the Judges’ Choice Award for outstanding analytical rigor, creativity, and interpretability among 50+ participating teams.\n\nDataFest Repo"
   },
   {
     "objectID": "awards.html#deans-honors-list-ucla",
@@ -193,6 +193,6 @@
     "href": "about.html#skills",
     "title": "About",
     "section": "Skills",
-    "text": "Skills\nData Science: Statistical modeling (Logistic regression / LDA / QDA), Machine learning (Random Forest / Gradient Boosting / Lasso / Ridge / Linear SVC / Kernel SVM), Data Visualization, Experimental Design, Data Mining, Exploratory Data Analysis (EDA), LLM, Bias-Variance trade-off, Neural networks\nLanguages: Python (Pandas/Matplotlib/PyTorch/Sklearn), R, SQL\nMathematics: Calculus, Linear Algebra, Probability Theory, Optimization\nData Engineering: Extract Transform Load (ETL), Databricks, Azure DevOps, Excel"
+    "text": "Skills\nStatistical Modeling & Machine Learning: Logistic Regression, Linear Regression, LDA, QDA, Random Forest, Gradient Boosting, Lasso, Ridge, Linear SVC, Kernel SVM, KNN, PCA, Neural Networks\nData Analysis & Visualization: EDA, Experimental Design, Data Mining, Data Visualization (Tableau, Power BI)\nProgramming & Tools: Python (pandas, matplotlib, PyTorch, scikit-learn), R, SQL, Git, Excel\nMathematics: Calculus, Linear Algebra, Probability Theory, Optimization\nData Engineering: ETL, Databricks"
   }
 ]
