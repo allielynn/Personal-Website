@@ -18,6 +18,6 @@ about:
       href: "tel:+14694011939"
 ---
 
-I am third year at UCLA, majoring in Statistics and Data Science. My passion lies in using data-driven solutions to create a positive impact. I have developed a strong foundation in mathematics, statistics, and programming. I am proficient in Python, and R, and skilled in using SQL for efficient database management. Additionally, I've developed several projects working with statistical modeling, machine learning, and neural networks, further enhancing my technical capabilities.
+I\'m a fourth-year Statistics and Data Science major at UCLA, specializing in machine learning and excited to expand my expertise into deep learning. I\'m proficient in R, Python, and SQL, and have completed end-to-end projects that take ideas from data preparation and modeling all the way to deployment, creating practical, data-driven solutions.
 
 [Resume](/Resume-Allison_Lynn.pdf)
