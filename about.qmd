@@ -15,6 +15,18 @@ Coursework: Data Analysis and Regression, Probability Theory, Design and Analysi
 
 ## Experience
 
+Tradeweb Markets LLC \| Credit Data Science Intern \| June 2025 - Aug 2025
+
+-   Built a bond similarity model for U.S. institutional bonds in Python, completing the full pipeline from data preparation and feature engineering to standardization and encoding, transforming bond attributes into numerical form.
+
+-   Applied distance metrics to identify comparable bonds and developed customized similarity measures for clients, integrating advanced filtering options to refine bond universes.
+
+-   Designed and deployed a Streamlit-based Python web application for the bond similarity model, enabling clients to customize their bond universe and instantly identify similar bonds through an interactive interface.
+
+-   Contributed to the development of a client- and sales-facing chatbot using agentic architecture and embedding models to address market and product inqueries.
+
+------------------------------------------------------------------------
+
 Ryan, LLC \| Data Strategy Intern \| June 2024 - Aug 2024
 
 -   Worked with machine learning, deep learning, and NLP pipelines by leveraging PyTorch, TensorFlow, and BERT.
@@ -33,14 +45,10 @@ Unlimited Tutoring \| Calculus Tutor \| April 2023 - June 2024
 
 ## Skills
 
-<b>Statistical Modeling & Machine Learning</b>: Logistic Regression, Linear Regression, LDA, QDA, Random Forest,
-Gradient Boosting, Lasso, Ridge, Linear SVC, Kernel SVM, KNN, PCA, Neural Networks
+<b>Statistical Modeling & Machine Learning</b>: Logistic Regression, Linear Regression, LDA, QDA, Random Forest, Gradient Boosting, Lasso, Ridge, Linear SVC, Kernel SVM, KNN, PCA, Neural Networks
 
-<strong>Data Analysis & Visualization</strong>: EDA, Experimental Design, Data Mining, Data Visualization (Tableau, Power BI) 
+<strong>Data Analysis & Visualization</strong>: EDA, Experimental Design, Data Mining, Data Visualization (Tableau, Power BI)
 
 <strong>Programming & Tools</strong>: Python (pandas, matplotlib, PyTorch, scikit-learn), R, SQL, Git, Excel
 
 <strong>Mathematics</strong>: Calculus, Linear Algebra, Probability Theory, Optimization
-
-<strong>Data Engineering</strong>: ETL, Databricks
-
